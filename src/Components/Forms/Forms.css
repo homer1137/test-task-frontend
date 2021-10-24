@@ -1,0 +1,30 @@
+
+
+
+body{
+    height: 100%; width: 100%;
+     
+    display: flex; flex-direction: column;
+    align-items: center; justify-items: center;
+}
+input {
+    font-size: 30px; padding: 15px; border: 1px solid #ccc;
+    min-width: 300px; max-width: 400px; width: 100%;  }
+input:focus {outline: none;}
+
+
+
+.placeholder{flex: 1;}
+
+.App .openModalBtn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+
+.class2 {
+    font-size: 30px; padding: 15px; border: 1px solid #ccc; background-color: white;
+    min-width: 300px; max-width: 400px; width: 100%;align-items: center; justify-items: center;
+}
